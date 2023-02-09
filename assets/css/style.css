@@ -82,9 +82,16 @@ h2{
     font-size: 10px;
 }
 
-ul li {
+ li {
     list-style: none;
+    padding: 0 1rem;
+    color: white;
 }
+
+/* ul{
+    display: flex;
+    justify-content: space-between;
+} */
 
 
 i{
@@ -102,4 +109,31 @@ h4{
 #app-footer{
     background-color: var(--tb-bar);
     padding: 2rem;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.buttons-left{
+    display: flex;
+}
+
+
+.buttons-center{
+    display: flex;
+    pa
+}
+
+
+.buttons-right{
+    display: flex;
+}
+
+p{
+    font-size: 10px;
+    padding-right: 10px;
 }
