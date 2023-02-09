@@ -24,6 +24,10 @@
     
 }
 
+.justify-content{
+    justify-content: space-between;
+}
+
 #app-header{
     background-color: var(--tb-dark);
    text-align: end;
@@ -78,10 +82,19 @@ h2{
     font-size: 10px;
 }
 
+ul li {
+    list-style: none;
+}
 
 
+i{
+    color: white;
+}
 
-
+h4{
+    color: white;
+   
+}
 
 
 
