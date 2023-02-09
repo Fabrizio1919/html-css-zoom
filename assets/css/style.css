@@ -11,3 +11,56 @@
     --tb-push: #49c500;
     --tb-end: #9f363d;
 }
+
+.container {
+    max-width: 1152px;
+    width: 70%;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    
+}
+
+#app-header{
+    background-color: var(--tb-dark);
+   text-align: end;
+   padding-bottom: 4rem;
+}
+
+.sp-view{
+    color: var(--tb-light);
+    background-color: #d3d3d3a1;
+    padding: 3px 3px;
+    border-radius: 5px;
+    
+}
+
+.table{
+    color: var(--tb-light);
+    background-color: #d3d3d3a1;
+    padding: 3px 3px;
+    border-radius: 5px;
+
+}
+
+#app-main{
+    background-color: var(--tb-dark);
+
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.col {
+    width: calc(100% / 23 * 3);
+    padding: 0.1rem;
+}
+
+img{
+    width: 130px;
+}
