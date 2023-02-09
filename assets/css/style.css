@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --tb-dark: #000000;
+    --tb-light: #ffffff;
+    --tb-push: #49c500;
+    --tb-end: #9f363d;
+}
