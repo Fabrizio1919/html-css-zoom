@@ -96,6 +96,7 @@ h2{
 
 i{
     color: white;
+    w
 }
 
 h4{
@@ -136,4 +137,12 @@ h4{
 p{
     font-size: 10px;
     padding-right: 10px;
+}
+
+.end{
+    color: var(--tb-end);
+    background-color: rgb(74, 74, 74);
+    padding: 42px 6px;
+    height: 93px;
+    margin: -30px 0px;
 }
