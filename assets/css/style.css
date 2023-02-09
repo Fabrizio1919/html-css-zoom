@@ -10,6 +10,7 @@
     --tb-light: #ffffff;
     --tb-push: #49c500;
     --tb-end: #9f363d;
+    --tb-bar: #222222;
 }
 
 .container {
@@ -37,13 +38,8 @@
     
 }
 
-.table{
-    color: var(--tb-light);
-    background-color: #d3d3d3a1;
-    padding: 3px 3px;
-    border-radius: 5px;
 
-}
+
 
 #app-main{
     background-color: var(--tb-dark);
@@ -59,8 +55,38 @@
 .col {
     width: calc(100% / 23 * 3);
     padding: 0.1rem;
+    position: relative;
 }
 
 img{
     width: 130px;
+}
+
+.pinco{
+    color: var(--tb-light);
+    background-color: #d3d3d3a1;
+    padding: 3px 3px;
+    border-radius: 5px;
+    width: 50%;
+    position: absolute;
+    top: 116px;
+    left: 0;
+}
+
+
+h2{
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+#app-footer{
+    background-color: var(--tb-bar);
+    padding: 2rem;
 }
